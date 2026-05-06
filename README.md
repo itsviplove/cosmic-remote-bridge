@@ -1,5 +1,9 @@
 # Cosmic Remote Bridge
 
+[![GitHub release](https://img.shields.io/github/v/release/itsviplove/cosmic-remote-bridge)](https://github.com/itsviplove/cosmic-remote-bridge/releases)
+[![License](https://img.shields.io/github/license/itsviplove/cosmic-remote-bridge)](https://github.com/itsviplove/cosmic-remote-bridge/blob/main/LICENSE)
+[![Node](https://img.shields.io/badge/node-%3E%3D18-brightgreen)](https://nodejs.org/)
+
 A research + prototype kit for remote control of **Pop!_OS COSMIC Wayland** sessions.
 
 ## Current focus
