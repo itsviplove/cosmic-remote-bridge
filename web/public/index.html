@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>COSMIC Remote Prototype</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <main class="shell">
+      <header>
+        <p class="eyebrow">COSMIC Remote Kit</p>
+        <h1>Prototype capability dashboard</h1>
+        <p class="subtitle">Honest starter UI for Pop!_OS COSMIC Wayland remote viewing/control.</p>
+      </header>
+
+      <section class="grid">
+        <article class="card status">
+          <h2>Machine state</h2>
+          <dl id="facts"></dl>
+        </article>
+
+        <article class="card recommendation">
+          <h2>Recommendation</h2>
+          <p id="recommendation">Loading…</p>
+          <ul id="notes"></ul>
+        </article>
+      </section>
+
+      <section class="card viewer">
+        <h2>Viewer panel</h2>
+        <div class="viewer-placeholder">
+          <span>Screen stream placeholder</span>
+          <small>Wire PipeWire/WebRTC here after COSMIC machine validation.</small>
+        </div>
+      </section>
+    </main>
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>
