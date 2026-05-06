@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Cosmic Remote Bridge docs
+    url: https://github.com/itsviplove/cosmic-remote-bridge/tree/main/docs
+    about: Read the docs before filing a request.
