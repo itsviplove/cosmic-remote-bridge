@@ -1,0 +1,17 @@
+{
+  "name": "cosmic-remote-kit",
+  "version": "0.1.0",
+  "description": "Research + prototype kit for remote control of Pop!_OS COSMIC Wayland sessions.",
+  "type": "module",
+  "scripts": {
+    "check": "node ./prototype/cosmic-remote-check.js",
+    "doctor-script": "node ./prototype/cosmic-remote-check.js --emit-bash > ./scripts/cosmic-remote-doctor.sh",
+    "demo": "node ./scripts/run-demo.js",
+    "web": "node ./web/server.js",
+    "relay": "node ./relay/server.js",
+    "relay-smoke": "node ./scripts/relay-smoke.js"
+  },
+  "keywords": ["pop-os", "cosmic", "wayland", "remote-desktop", "pipewire", "portal"],
+  "license": "MIT",
+  "engines": { "node": ">=18" }
+}
