@@ -1,0 +1,5 @@
+.local-state/
+node_modules/
+bridge/target/
+.DS_Store
+*.log
