@@ -1,0 +1,27 @@
+[package]
+name = "cosmic-remote-host"
+version = "0.1.0"
+edition = "2021"
+description = "Host-side scaffold for COSMIC Remote Bridge"
+license = "MIT"
+publish = false
+
+[[bin]]
+name = "cosmic-remote-host"
+path = "src/main.rs"
+
+[dependencies]
+anyhow = "1"
+clap = { version = "4", features = ["derive"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+tokio = { version = "1", features = ["macros", "rt-multi-thread", "signal", "time"] }
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["fmt", "env-filter"] }
+url = { version = "2", features = ["serde"] }
+
+# Planned dependencies once implemented on a Linux host:
+# ashpd = "*"
+# pipewire = "*"
+# webrtc = "*"
+# zbus = "*"
